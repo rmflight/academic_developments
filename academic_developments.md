@@ -2,10 +2,8 @@
 % Robert M Flight
 % 05/12/12
 
-```{r knitrSetup, include=FALSE}
-#opts_chunk$set(cache=TRUE)
-knit_hooks$set(error = function(x, options) stop(x)) 
-```
+
+
 
 # Activities??
 
@@ -29,7 +27,7 @@ knit_hooks$set(error = function(x, options) stop(x))
 
 # Name Disambiguation
 
- * Who is the author on the paper? Person on the grant?
+ * Who is the author on the paper?
  * [ORCID](http://orcid.org)
      * unique ID to provide disambiguation for authors
      * supported by publishers, universities, etc
