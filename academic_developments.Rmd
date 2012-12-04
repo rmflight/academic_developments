@@ -1,0 +1,22 @@
+% New Developments in Academic Activities
+% Robert M Flight
+% 05/12/12
+
+```{r knitrSetup, include=FALSE}
+#opts_chunk$set(cache=TRUE)
+knit_hooks$set(error = function(x, options) stop(x)) 
+```
+
+# Activities??
+
+ * Communication
+ * Academic Impact
+ * Data Sharing
+ * Funding
+ 
+# Communication
+
+ * Twitter
+ 
+ knit("academic_developments.Rmd")
+ system("pandoc -s -S -t dzslides --slide-level=2 --mathjax affymm_jcPresentation_141012.md -o affymm_slides.html")
