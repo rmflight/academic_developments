@@ -26,6 +26,10 @@
 
 # Academic Impact
 
+ * Name Disambiguation
+ * Paper Impact
+ * AltMetrics
+
 
 # Name Disambiguation
 
@@ -46,12 +50,15 @@
 # AltMetrics
  * Alternative ways of considering **[impact](http://altmetrics.org/tools/)**
      * Who is reading; saving; discussing & citing
-     * Examples [1]()  [2]()
+     * Examples [1](http://impactstory.org/collection/of49tu)  [2](http://impactstory.org/collection/pn6ow0)
    
 
 # Publishing
 
-## Open Access
+ * Open Access
+ * Peer Review
+
+# Open Access
 
  * Open access in traditional journals
      * Pay large fees to make available immediately, forever
@@ -59,19 +66,26 @@
  * [PeerJ](http://peerj.org)
      * Pay $99, publish once a year, forever
      * Peer review once a year
+     * Biosciences
+     * Option to publish reviews
+     * Preprint service
  * [eLife](http://www.elifesciences.org/the-journal/)
      * backed by HHMI, Max Planck Society, Wellcome Trust
      * **outstanding** research only
      * full XML available on [Github](https://github.com/elifesciences/elife-articles)
+     * currently free to pubish
  
 # Peer Review
 
- * Move to ask reviewers to sign reviews
- * Arxiv models, but with better outputs (html, currently only pdf)
+ * Move to have reviewers sign reviews
+ * Including reviews in the publication
+ * Arxiv models, but with better outputs (eg html, currently only pdf)
      * submit preprint, get comments, review, then submit
      * Arxiv has section for [Quantitative Biology](http://arxiv.org/list/q-bio/new)
  * [Peerage of Science](http://www.peerageofscience.org/)
      * Review, journals can decide to publish or not
+ * [Faculty of 1000](http://f1000.com/prime)
+     * Pay small fee per month to get access to recommendations of published literature
      
 # Sharing
 
@@ -85,7 +99,7 @@
      * If desired, can vary parameters, or use publication data
  * [Github](https://github.com/)
      * host anything you want in version control
-     * used to collaboratively work on many things, including publications [1](https://github.com/PhDP/article_preprint/blob/master/ms.tex) [2](https://github.com/cwcon/push) [3](http://rmflight.github.com/affyMM/)
+     * used to collaboratively work on many things, including publications [1](https://github.com/PhDP/article_preprint/blob/master/ms.tex) [2](https://github.com/cwcon/push) [3](https://github.com/rmflight/affyMM/)
      
 # Funding
 
@@ -93,11 +107,17 @@
      * Kickstarter like
      * Propose research, ask for funding, keep funders informed
      
-# Links to open
+# Acknowledgements
 
- * 
- * 
- 
+ * @ImpactStory
+ * @figshare
+ * Heather Piwowar (@researchremix)
+ * Carl Boettiger (@cboettig)
+ * Kevin Brock (@brockoleur)
+ * Jason Priem (@jasonpriem)
+
+# Generate slides
+
  require(knitr)
  knit("academic_developments.Rmd")
- system("pandoc -s -S -t dzslides --slide-level=1 --mathjax academic_developments.md -o academic_developments.html")
+ system("pandoc -s -S -t slidy --slide-level=1 --mathjax academic_developments.md -o academic_developments.html")

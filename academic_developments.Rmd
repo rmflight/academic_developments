@@ -86,7 +86,7 @@ knit_hooks$set(error = function(x, options) stop(x))
      * Arxiv has section for [Quantitative Biology](http://arxiv.org/list/q-bio/new)
  * [Peerage of Science](http://www.peerageofscience.org/)
      * Review, journals can decide to publish or not
- * Faculty of 1000 is an example
+ * [Faculty of 1000](http://f1000.com/prime)
      * Pay small fee per month to get access to recommendations of published literature
      
 # Sharing
@@ -110,6 +110,13 @@ knit_hooks$set(error = function(x, options) stop(x))
      * Propose research, ask for funding, keep funders informed
      
 # Acknowledgements
+
+ * @ImpactStory
+ * @figshare
+ * Heather Piwowar (@researchremix)
+ * Carl Boettiger (@cboettig)
+ * Kevin Brock (@brockoleur)
+ * Jason Priem (@jasonpriem)
 
 # Generate slides
 
