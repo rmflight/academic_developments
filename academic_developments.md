@@ -63,7 +63,7 @@
  * Open access in traditional journals
      * Pay large fees to make available immediately, forever
      * Access for text mining??
- * [PeerJ](http://peerj.org)
+ * [PeerJ](http://peerj.com)
      * Pay $99, publish once a year, forever
      * Peer review once a year
      * Biosciences
