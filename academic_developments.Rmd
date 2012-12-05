@@ -28,6 +28,10 @@ knit_hooks$set(error = function(x, options) stop(x))
 
 # Academic Impact
 
+ * Name Disambiguation
+ * Paper Impact
+ * AltMetrics
+
 
 # Name Disambiguation
 
@@ -87,7 +91,7 @@ knit_hooks$set(error = function(x, options) stop(x))
      * If desired, can vary parameters, or use publication data
  * [Github](https://github.com/)
      * host anything you want in version control
-     * used to collaboratively work on many things, including publications [1](https://github.com/PhDP/article_preprint/blob/master/ms.tex) [2](https://github.com/cwcon/push) [3](http://rmflight.github.com/affyMM/)
+     * used to collaboratively work on many things, including publications [1](https://github.com/PhDP/article_preprint/blob/master/ms.tex) [2](https://github.com/cwcon/push) [3](https://github.com/rmflight/affyMM/)
      
 # Funding
 
@@ -95,8 +99,10 @@ knit_hooks$set(error = function(x, options) stop(x))
      * Kickstarter like
      * Propose research, ask for funding, keep funders informed
      
+# Acknowledgements
 
- 
+# Generate slides
+
  require(knitr)
  knit("academic_developments.Rmd")
- system("pandoc -s -S -t dzslides --slide-level=1 --mathjax academic_developments.md -o academic_developments.html")
+ system("pandoc -s -S -t slidy --slide-level=1 --mathjax academic_developments.md -o academic_developments.html")
